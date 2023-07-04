@@ -1,9 +1,9 @@
-﻿/*Algorithme: le guichet
+﻿/*
+ Algorithme: le guichet
  * Description: Algorithme qui saisit une somme de dollar entier et affiche le nombre minimum de billet(s) et piece(s) pour arriver a cette somme. 
  * fait par:Francois Gignac
  * date: 02/05/2022
  * revision:  0
- * note: je n'ai pas utiliser d'accent, et je les remplace par 'er'
  */
 
 using System;
@@ -112,10 +112,8 @@ namespace P14_TP2_no1_2210043
                 }
                 else
                     continue;
-
             }
             while (recommencer == 'O');
-
         }
     }
 }
